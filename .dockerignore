@@ -1,0 +1,3 @@
+*.sublime-project
+Dockerfile
+npm-debug.log
