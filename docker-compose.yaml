@@ -1,9 +1,9 @@
 version: "2"
 
 services:
-  redirecter-production:
-    container_name: "redirecter-production"
+  redirecter:
+    container_name: "redirecter"
     image: monolit/redirecter
     restart: always
     ports:
-      - "90:3001"
+      - "8081:3001"
